@@ -1,0 +1,17 @@
+ [
+    {
+        "question":"What is the capital of France?",
+        "options":["Paris","Berlin","London","Copenhagen"],
+        "answer":"Paris"
+    },
+    {
+        "question":"By which river is Paris located?",
+        "options":["Hudson","Seine","Thames","Tigris"],
+        "answer":"Seine"
+    },
+    {
+        "question":"Who wrote the Hamlet?",
+        "options":["William Shakespeare","Charles Dickens","Mark Twain","RL Stevenson"],
+        "answer":"William Shakespeare"
+    }
+]

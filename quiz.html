@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script type="text/javascript" src="quiz_data.json"></script>
+  <title>Quiz Application</title>
+</head>
+<body onload="loadQuestion(0)">
+    <div id="container">
+        <span id="top">
+            <div id="timer">Timer:<span id="timerSpan">10</span> s</div>
+            <div id="score">Score:<span id="scoreSpan">0</span></div>
+        </span>
+        <div id="question"></div>
+        <div id="options">
+            <button class="option"></button>
+            <button class="option"></button>
+            <button class="option"></button>
+            <button class="option"></button>
+        </div>
+
+        <button id="restartBtn" onclick="loadQuestion(0)">Restart Quiz</button>
+    </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
